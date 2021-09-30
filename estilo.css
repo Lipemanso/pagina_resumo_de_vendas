@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(66, 140, 201, 0.363);
+    background-image: url(pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+}
+
+
+main{
+    margin-top: 4rem;
+
+}
+
+.container{
+    
+    text-align: center; 
+    border-radius: 10px;
+    background-color: white;
+    height: 480px;
+    width: 350px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.123);
+}
+
+.container img{
+    border-radius: 10px 10px 0 0 ;
+    width: 100%;
+}
+#icone{
+    width: 40px;
+}
+
+
+.text1{
+    margin: 15px;
+
+}
+
+.text2{
+    display: flex;
+    margin: 25px 25px;
+    justify-content: space-around;
+    
+    
+}
+
+.text2 p {
+    font-size: 12px;
+}
+
+.text2 a{
+    text-decoration: none;
+    color: black;
+    margin-left: 15px;
+}
+.text2 a:hover{
+   
+    color: rgb(0, 60, 255);
+}
+.text2 img{
+    margin-left: 5px;
+}
+
+.button1 {
+    margin-left: 10%;
+    padding: 5px;
+    background-color: rgba(3, 20, 168, 0.849);
+   
+    border-radius: 5px;
+    width: 80%;
+    height: 2rem;
+    
+}
+
+.button1:hover{
+    background-color: rgb(25, 25, 228);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.432);
+}
+.button2{
+    margin-left: 10%;
+    margin-top: 15px;
+    padding: 5px;
+    background-color: white;
+    border-radius: 5px;
+    width: 80%;
+    height: 2rem;
+}
+.button2:hover{
+    background-color: rgb(241, 241, 241);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.178);
+}
+
+.button1 a{
+    color: white;
+    text-decoration: none;
+}
+
+.button2 a{
+    text-decoration: none;
+    color: black;
+}
+
+@media(max-width: 500px){
+    body{
+        background-image: url(pattern-background-mobile.svg);
+        background-repeat:repeat-x;
+    }
+
+}
+
